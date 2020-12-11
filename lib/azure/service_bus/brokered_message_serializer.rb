@@ -26,7 +26,7 @@ module Azure
       PROPERTIES = {
         'ContentType'             => 'content_type',
         'CorrelationId'           => 'correlation_id',
-        'SessionID'               => 'session_id',
+        'SessionId'               => 'session_id',
         'DeliveryCount'           => 'delivery_count',
         'LockedUntilUtc'          => 'locked_until_utc',
         'LockToken'               => 'lock_token',
@@ -59,7 +59,7 @@ module Azure
           m.message_id = props['MessageId']
           m.label = props['Label']
           m.to = props['To']
-          m.session_id = props['SessionID']
+          m.session_id = props['SessionId']
           m.correlation_id = props['CorrelationId']
           m.reply_to = props['ReplyTo']
           m.reply_to = props['ReplyTo']
